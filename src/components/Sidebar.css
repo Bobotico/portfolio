@@ -1,0 +1,59 @@
+.myIdentity{
+    margin: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.myTitle{
+    color: white;
+    font-weight: 100;
+}
+
+.mySurname{
+    color: white;
+    font-weight: 600;
+}
+
+.sidebar{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navLinks{
+    display: flex;
+    margin-right: 20px;
+}
+.sidebarText{
+    color: white;
+    font-weight: 600;
+    margin: 25px;
+}
+
+@media screen and (max-width: 942px) {
+    .hamburgerContainer{
+        margin: 0 25px;
+    }
+    .hamburger{
+        margin: 25px;
+    }
+    .hamburger:active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger:active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger:active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px auto;
+        transition: 0.3s;
+    }
+    .navLinks{
+        display: none;
+    }
+}
