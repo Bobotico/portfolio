@@ -1,11 +1,14 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import Hamburger from 'hamburger-react'
-import { useState } from 'react'
+//import { useState } from 'react'
+import { Squash as Hamburger } from 'hamburger-react'
 
 function Navbar() {  
 
-    const [isOpen, setOpen] = useState(false)
+    //const [isOpen, setOpen] = useState(false)
+    function HamburgerClosed() {
+        return <h1>Open Menu</h1>;
+      }
 
     return (
         <div className="navbar">
@@ -14,25 +17,25 @@ function Navbar() {
             <span className="myTitle">Francesco</span>
             <span className="mySurname">Borrelli</span>
             </h2>
-            </div>
-        
-            <Hamburger direction="right" size={32} color="red" duration={0.1} onToggle={toggle=>{
-                if(toggle){
-                    console.log('open menu');
-                } else {
-                    console.log('open menu');
-                }
-
-            }} />
-            
+            </div>          
 
             <div className="hamburgerContainer">
+            <Hamburger size={30} duration={0.4} color="white" onToggle={toggled => {
+                if (toggled) {
+                    <HamburgerClosed />// open a menu
+                } else {
+                    // close a menu
+                }
+            }} />
+            </div>
+
+            {/*<div className="hamburgerContainer">
                 <div className="hamburger" onClick={() => setShowMenu(!showMenu)}>
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </div>
-            </div>
+            </div>*/}
 
 
             <div className="navLinks">

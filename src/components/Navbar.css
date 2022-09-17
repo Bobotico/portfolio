@@ -31,22 +31,16 @@
     font-size: 20px;
 }
 
+.hamburgerContainer{
+    display: none;
+}
+
 @media screen and (max-width: 942px) {
     .hamburgerContainer{
-        margin: 0 25px;
+        display: flex;
+        margin: 15px;
     }
-    .hamburger{
-        margin: 25px;
-    }
-    .hamburger:active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger:active .bar:nth-child(1){
-        transform: translateY(7px) rotate(45deg);
-    }
-    .hamburger:active .bar:nth-child(3){
-        transform: translateY(-7px) rotate(-45deg);
-    }
+
     .bar{
         display: block;
         width: 25px;
