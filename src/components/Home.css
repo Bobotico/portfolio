@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #012030;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+  }
+  
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 34px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  
+  .webIdentity{
+    color: white;
+    display: block;
+    position: relative;
+  }
+  
+  .mainLayer{
+    width: 100%;
+    max-width: 942px;
+    min-width: 480px;
+  }
+  
+  .presentation{
+    margin: 25px;
+  }
+  .hey{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-size: 68px;
+  }
+  .myName{
+    color: #45C4B0;
+    text-shadow: 2px 2px #00000091;
+  }
+  .webDesigner, .frontEnd{
+    color: #13678A;
+    font-size: 24px;
+    text-shadow: 2px 2px #00000091;
+  }
+  .separator {
+    font-weight: 200;
+  }
+  /*.circleLayer{
+    width: 1920px;
+    height: 1080px;
+  }*/
+  
+  .contactButton{
+    background: transparent;
+    color: #9AEBA3;
+    border: 3px solid #9AEBA3;
+    padding: 12px;
+    font-size: 18px;
+    box-shadow: 2px 2px #00000091;
+    text-shadow: 2px 2px #00000091;
+  
+    margin-top: 15px;
+  }
+  
+  .socialMediaIcons{
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+  }
+  .socialIcons{
+    color: white;
+    font-size: 20px;
+  }
+  
+  @media screen and (min-width: 1126px) {
+    .webIdentity{
+      display: flex;
+    }
+  
+    .mainLayer{
+      display: flex;
+      position: absolute;
+      width: 100%;
+      min-width: 480px;
+      left: 0;
+    }
+  
+    .presentation{
+      position: absolute;
+      left: 607px;
+      top: 100px;
+    }
+    .hey{
+      padding-right: 45px;
+    }
+    .im{
+      margin-left: 70px;
+    }
+    .webDesigner{
+      margin-left: 80px;
+    }
+  
+    .contactButton{
+      position: absolute;
+      bottom: 1;
+      left: 0;
+      margin-top: 5vh;
+      margin-left: 11vh;
+      background: transparent;
+      color: #9AEBA3;
+      border: 3px solid #9AEBA3;
+      padding: 12px;
+      font-size: 20px;
+      box-shadow: 2px 2px #00000091;
+      text-shadow: 2px 2px #00000091;
+    }
+  
+    .socialMediaIcons{
+      position: absolute;
+      bottom: 0;
+      margin: 20px;
+    }
+    .socialIcons{
+      color: white;
+      font-size: 20px;
+    }
+  }
+  

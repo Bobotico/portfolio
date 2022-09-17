@@ -20,9 +20,9 @@ function Sidebar() {
             </div>
 
             <div className="navLinks">
-            <p className="sidebarText">Home</p>
-            <p className="sidebarText">About</p>
-            <p className="sidebarText">Contact</p>
+            <a href="/" className="sidebarText">Home</a>
+            <a href="/about" className="sidebarText">About</a>
+            <a href="/contacts" className="sidebarText">Contact</a>
             </div>
         </div>
     )
