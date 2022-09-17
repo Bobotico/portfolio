@@ -70,16 +70,6 @@
     margin-top: 15px;
   }
   
-  .socialMediaIcons{
-    position: absolute;
-    bottom: 0;
-    margin: 20px;
-  }
-  .socialIcons{
-    color: white;
-    font-size: 20px;
-  }
-  
   @media screen and (min-width: 1126px) {
     .webIdentity{
       display: flex;
@@ -123,11 +113,6 @@
       text-shadow: 2px 2px #00000091;
     }
   
-    .socialMediaIcons{
-      position: absolute;
-      bottom: 0;
-      margin: 20px;
-    }
     .socialIcons{
       color: white;
       font-size: 20px;

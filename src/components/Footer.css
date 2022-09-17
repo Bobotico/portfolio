@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.socialMediaIcons{
+    display: flex;
+    margin: 20px;
+}
+.mailContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.myMail{
+    text-align: end;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: auto 15px;
+    text-shadow: 2px 2px #00000091;
+}
+
+@media screen and (max-width: 768px) {
+    .socialMediaIcons{
+        position: absolute;
+        bottom: 0;
+        margin: 20px;
+    }
+}

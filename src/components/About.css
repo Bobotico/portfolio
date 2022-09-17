@@ -1,0 +1,70 @@
+.container{
+    margin-top: 250px;
+    margin-right: 10%;
+}
+.title{
+    margin-left: 10%;
+    color: #45C4B0;
+    font-size: 56px;
+    text-shadow: 2px 2px #00000091;
+}
+.aboutDescription{
+    color: white;
+    margin-left: 10%;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.skillsDescriptions{
+    color: white;
+    margin-left: 15%;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.skillsIcons{
+    display: flex;
+    margin: 0 15%;
+    margin-top: 20px;
+}
+
+.html, .css, .js, .php, .jquery, .mySql, .wp{
+    fill: #9AEBA3;
+    margin-right: 15px;
+}
+
+.jquery{
+    margin-left: 20px;
+}
+
+.csharp{
+    border-radius: 5px;
+    background-color: #9AEBA3;
+}
+.cms{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.iconTxt{
+    color: #13678A;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px #00000091;
+}
+.iconTxtJq{
+    color: #13678A;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 2px 2px #00000091;
+    margin-left: 15px;
+}
+
+@media  screen and (max-width: 768px) {
+    .title{
+        font-size: 42px;
+    }
+    .aboutDescription{
+        font-size: 24px;
+    }
+}

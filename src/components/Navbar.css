@@ -1,7 +1,7 @@
 .myIdentity{
     margin: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .myTitle{
@@ -14,7 +14,7 @@
     font-weight: 600;
 }
 
-.sidebar{
+.navbar{
     display: flex;
     justify-content:space-between;
 }
@@ -23,11 +23,12 @@
     display: flex;
     margin-right: 20px;
 }
-.sidebarText{
+.navbarText{
     color: white;
     text-decoration: none;
     font-weight: 600;
     margin: 25px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 942px) {
@@ -41,10 +42,10 @@
         opacity: 0;
     }
     .hamburger:active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(7px) rotate(45deg);
     }
     .hamburger:active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-7px) rotate(-45deg);
     }
     .bar{
         display: block;
@@ -56,5 +57,8 @@
     }
     .navLinks{
         display: none;
+    }
+    .navLinks.active{
+        display: block;
     }
 }

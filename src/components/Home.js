@@ -1,10 +1,8 @@
 import './Home.css';
-import Sidebar from './Sidebar';
 
 function Home() {
   return (
-    <div className="App">
-
+    <div>
       <div className="webIdentity">
           <img src="full_me.jpg" alt="circle layer" className="mainLayer"></img>
           {/*<img src="/circle_me.png" alt="circle layer" className="circleLayer"></img>
@@ -18,9 +16,6 @@ function Home() {
             </h2>
               <button className="contactButton">CONTACT ME</button>
           </div>
-      </div>
-      <div className="socialMediaIcons">
-        <h1 className="socialIcons">LinkedIn Facebook</h1>
       </div>
     </div>
   );

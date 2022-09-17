@@ -1,6 +1,10 @@
+import './Contacts.css'
+
 function Contacts() {
     return(
-        <h1>Contact me!</h1>
+        <div className='container'>
+            <h1 className="title">Contact me!</h1>
+        </div>
     )
 }
 
