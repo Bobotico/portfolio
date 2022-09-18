@@ -20,9 +20,15 @@
 }
 
 .navLinks{
-    margin-top: 25px;
+    background-color: #012030;
+    transform: translateX(-120px);
     margin-right: 20px;
+    position: absolute;
+    z-index:1;
+    width: 100%;
+    height: 100%;
 }
+
 .navLink{
     display: inline;
 }
@@ -60,13 +66,12 @@
     }
 
     .hidden{
-        visibility: hidden;
+        display: none;
     }
     
     .visible{
-        display: inherit;
+        visibility: visible;
     }
 }
 
-/*---*/
 
