@@ -6,9 +6,9 @@ function Footer() {
     return(
         <div className='footer'>
 
-
+            <div className='socialIcons'>
                 <SocialIcon url="https://www.linkedin.com/in/francesco-borrelli/" />
-
+            </div>
 
                 <p className="myMail">francesco.borrelli.pro@gmail.com</p>
 
