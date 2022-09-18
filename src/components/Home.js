@@ -1,6 +1,16 @@
 import './Home.css';
+import {useNavigate} from 'react-router-dom';
+
 
 function Home() {
+
+  const navigate = useNavigate();
+
+  const navigateToContacts = () => {
+    // 👇️ navigate to /contacts
+    navigate('/portfolio/contacts');
+  };
+
   return (
     <div>
       <div className="webIdentity">
@@ -14,7 +24,7 @@ function Home() {
               <span className="separator"> | </span>
               <span className="frontEnd">FrontEnd dev</span>
             </h2>
-              <button className="contactButton">CONTACT ME</button>
+              <button className="contactButton" onClick={navigateToContacts}>CONTACT ME</button>
           </div>
       </div>
     </div>

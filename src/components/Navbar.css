@@ -58,13 +58,15 @@
         display: block;
         margin: 25px auto;
     }
+
+    .hidden{
+        visibility: hidden;
+    }
+    
+    .visible{
+        display: inherit;
+    }
 }
 
 /*---*/
-.hidden{
-    display: none;
-}
 
-.visible{
-    display: inherit;
-}

@@ -5,11 +5,13 @@
   
   html {
     overflow-x: hidden;
+    height: 100%;
   }
   
   body {
     background-color: #012030;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    height: 100%;
   }
   
   h1{
