@@ -70,10 +70,10 @@
         height: 100%;
     }
     .title{
-        font-size: 42px;
+        font-size: 36px;
     }
     .aboutDescription{
-        font-size: 24px;
+        font-size: 18px;
     }  
     .skillsIcons{
         flex-flow: wrap;
