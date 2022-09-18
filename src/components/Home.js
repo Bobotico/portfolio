@@ -9,7 +9,7 @@ function Home() {
           <img src="/me.png" alt="body layer" className="bodyLayer"></img>*/}
           <div className="presentation">
             <h2>
-              <span className="hey">Hey,</span><br/><span className="im"> I'm</span><span className="myName"> Francesco Borrelli</span>.<br/>
+              <span className="hey">Hey,</span><br/><span className="im"> I'm</span><span className="myFullName"> Francesco Borrelli</span>.<br/>
               <span className="webDesigner">Web Designer</span>
               <span className="separator"> | </span>
               <span className="frontEnd">FrontEnd dev</span>

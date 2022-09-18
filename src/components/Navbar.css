@@ -4,7 +4,7 @@
     font-size: 22px;
 }
 
-.myTitle{
+.myName{
     color: white;
     font-weight: 100;
 }
@@ -20,8 +20,11 @@
 }
 
 .navLinks{
-    display: flex;
+    margin-top: 25px;
     margin-right: 20px;
+}
+.navLink{
+    display: inline;
 }
 .navbarText{
     color: white;
@@ -38,6 +41,7 @@
 @media screen and (max-width: 942px) {
     .hamburgerContainer{
         display: flex;
+        justify-content: flex-end;
         margin: 15px;
     }
 
@@ -49,10 +53,18 @@
         margin: 5px auto;
         transition: 0.3s;
     }
-    .navLinks{
-        display: none;
-    }
-    .navLinks.active{
+
+    .navLink{
         display: block;
+        margin: 25px auto;
     }
+}
+
+/*---*/
+.hidden{
+    display: none;
+}
+
+.visible{
+    display: inherit;
 }
