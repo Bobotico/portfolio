@@ -1,5 +1,5 @@
 .footer{
-    background-color: #012030;
+    background: linear-gradient(to top, #012030, #012030ce, #012030e3, #01203000);
     display: flex;
     justify-content:space-between;
     position: fixed;
@@ -14,7 +14,7 @@
 .myMail{
     text-align: end;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 100;
     margin: auto 45px;
     text-shadow: 2px 2px #00000091;

@@ -8,7 +8,7 @@ function About(){
     return(
         <div className='aboutContainer'>
             <h1 className="title">About me</h1>
-            <p className='aboutDescription'>29 yo, I come from the south Italy. <br/> I'm a developement enthusiast. <br/> I dedicate myself to websites, videogames and every kind of relationship occurring between people and graphic interfaces.</p>
+            <p className='aboutDescription'>29 yo, I come from the south of Italy. <br/> I'm a developement enthusiast. <br/> I dedicate myself to websites, videogames and every kind of relationship occurring between people and graphic interfaces.</p>
                 
                 <p className='skillsDescriptions'>The languages I can speak?</p>
                 <div className='skillsIcons'>

@@ -32,7 +32,7 @@ function Navbar() {
 
             <div className='navbarRight'>
                 <div className="hamburgerContainer" onClick={updateMenu}>
-                    <Hamburger toggled={isOpen} toggle={setOpen} size={30} duration={0.4} color="white" />
+                    <Hamburger toggled={isOpen} toggle={setOpen} size={20} duration={0.4} color="white" />
                 </div>
 
                 <ul className={navLinks}>

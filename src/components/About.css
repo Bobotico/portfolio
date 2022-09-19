@@ -1,6 +1,6 @@
 .aboutContainer{
     width: 100%;
-    margin-top: 250px;
+    margin-top: 50px;
     margin-right: 10%;
 }
 
@@ -13,14 +13,15 @@
 .aboutDescription{
     color: white;
     margin: 0 10%;
-    font-size: 32px;
+    font-size: 22px;
+    font-weight: 100;
     margin-top: 20px;
 }
 
 .skillsDescriptions{
     color: white;
     margin: 0 15%;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -99,5 +100,8 @@
         justify-content: center;
         text-align: center;
     }
+    .aboutDescription{
+        margin-bottom: 100px;
+    }  
 }
 
