@@ -1,3 +1,6 @@
+.identityHomeLink{
+    text-decoration: none;
+}
 .myIdentity{
     margin: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -36,6 +39,12 @@
     font-weight: 600;
     margin: 25px;
     font-size: 16px;
+}
+.navbarText:hover{
+    color: #45C4B0;
+}
+.navbarText:active{
+    color: #13678A;
 }
 
 .hamburgerContainer{

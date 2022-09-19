@@ -24,10 +24,12 @@ function Navbar() {
     return (
         <div className="navbar">
             <div>
-                <h2 className="myIdentity">
-                    <span className="myName">Francesco</span>
-                    <span className="mySurname">Borrelli</span>
-                </h2>
+                <a href="/portfolio" className="identityHomeLink">
+                    <h2 className="myIdentity">
+                        <span className="myName">Francesco</span>
+                        <span className="mySurname">Borrelli</span>
+                    </h2>
+                </a>
             </div>          
 
             <div className='navbarRight'>
