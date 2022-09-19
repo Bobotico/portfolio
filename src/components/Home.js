@@ -14,7 +14,7 @@ function Home() {
   return (
     <div>
       <div className="webIdentity">
-          <img src="full_me.jpg" alt="circle layer" className="mainLayer"></img>
+          <img src="/portfolio/full_me.jpg" alt="circle layer" className="mainLayer"></img>
           {/*<img src="/circle_me.png" alt="circle layer" className="circleLayer"></img>
           <img src="/me.png" alt="body layer" className="bodyLayer"></img>*/}
           <div className="presentation">
