@@ -8,7 +8,7 @@ function Home() {
 
   const navigateToContacts = () => {
     // 👇️ navigate to /contacts
-    navigate('/portfolio/contacts');
+    navigate('/contacts');
   };
 
   return (
