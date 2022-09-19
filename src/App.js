@@ -8,16 +8,16 @@ import Footer from './components/Footer'
 
 function App() {
   return(
-    <Router>
+    <Router basename="/portfolio">
 
       <Navbar />
 
       <Routes>
-        <Route exact path="/portfolio" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
 
-        <Route path="/portfolio/about" element={<About />} />
+        <Route path="/about" element={<About />} />
 
-        <Route path="/portfolio/contacts" element={<Contacts />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
 
       <Footer />

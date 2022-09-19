@@ -37,13 +37,13 @@ function Navbar() {
 
                 <ul className={navLinks}>
                     <li className='navLink' onClick={updateMenu}>
-                        <Link to="/portfolio" className="navbarText">Home</Link>
+                        <Link to="/" className="navbarText">Home</Link>
                     </li>
                     <li className='navLink' onClick={updateMenu}>
-                        <Link to="/portfolio/about" className="navbarText">About</Link>
+                        <Link to="/about" className="navbarText">About</Link>
                     </li>
                     <li className='navLink' onClick={updateMenu}>
-                        <Link to="/portfolio/contacts" className="navbarText">Contact</Link>
+                        <Link to="/contacts" className="navbarText">Contact</Link>
                     </li>
                 </ul>
             </div>
