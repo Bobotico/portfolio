@@ -50,7 +50,7 @@ function About(){
                     </div>
                 </div>  
             
-            <p className='aboutDescription'>And the list's 'bout to <strong>grow!</strong></p> 
+            <p className='aboutEndingDescription'>And the list's 'bout to <strong>grow!</strong></p> 
         </div>     
     )
 }

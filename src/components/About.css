@@ -17,6 +17,13 @@
     font-weight: 100;
     margin-top: 20px;
 }
+.aboutEndingDescription{
+    color: white;
+    margin: 0 10%;
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+}
 
 .skillsDescriptions{
     color: white;
@@ -75,6 +82,9 @@
     }
     .aboutDescription{
         font-size: 18px;
+    }  
+    .aboutEndingDescription{
+        font-size: 18px;
         margin-bottom: 100px;
     }  
     .skillsIcons{
@@ -99,9 +109,6 @@
         margin: 15px 0;
         justify-content: center;
         text-align: center;
-    }
-    .aboutDescription{
-        margin-bottom: 100px;
     }  
 }
 

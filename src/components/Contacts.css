@@ -1,10 +1,64 @@
 .container{
-    margin-top: 250px;
+    margin-top: 40px;
     margin-right: 10%;
 }
-.title{
+
+.titleContacts{
     margin-left: 10%;
     color: #45C4B0;
     font-size: 56px;
     text-shadow: 2px 2px #00000091;
+    margin-bottom: 50px;
+}
+
+.form{
+    margin-left: 10%;
+}
+
+label{
+    color: #13678A;
+    text-shadow: 2px 2px #00000091;
+    font-size: 18px;
+}
+
+.form-control{
+    margin: 10px 5px;
+    padding: 8px 13px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submitButton{
+    margin-bottom: 100px;
+}
+.button{
+    background: transparent;
+    border: 2px solid #9AEBA3;
+    color: #9AEBA3;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 15px;
+    /*border-radius: 25px;*/
+}
+.button:hover{
+    color: #45C4B0;
+    border: 2px solid #45C4B0;
+}
+.button:active{
+    color: #13678A;
+    border: 1px solid #13678A;
+}
+
+@media screen and (max-width: 768px)
+{
+    .titleContacts{
+        font-size: 36px;
+    }
+    .submitButton{
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .form{
+        text-align: center;
+    }
 }

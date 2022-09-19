@@ -56,6 +56,14 @@
     margin-top: 15px;
     margin-bottom: 80px;
   }
+  .contactButton:hover{
+    color: #45C4B0;
+    border: 3px solid #45C4B0;
+  }
+  .contactButton:active{
+    color: #13678A;
+    border: 2px solid #13678A;
+  }
   
   @media screen and (min-width: 1126px) {
     .webIdentity{
