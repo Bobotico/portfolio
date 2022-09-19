@@ -5,16 +5,20 @@ import { Squash as Hamburger } from 'hamburger-react'
 
 function Navbar() {  
 
+    const [isOpen, setOpen] = useState(false)
     const [navLinks, setNavLinks] = useState("navLinks hidden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
 
     const updateMenu = () => {
         if(!isMenuClicked) {
             setNavLinks("navLinks visible")
+            setOpen(isOpen)
         } else {
             setNavLinks("navLinks hidden")
+            setOpen(!isOpen)
         }
         setIsMenuClicked(!isMenuClicked);
+        setOpen(!isOpen)
     }
 
     return (
@@ -28,17 +32,17 @@ function Navbar() {
 
             <div className='navbarRight'>
                 <div className="hamburgerContainer" onClick={updateMenu}>
-                    <Hamburger size={30} duration={0.4} color="white" />
+                    <Hamburger toggled={isOpen} toggle={setOpen} size={30} duration={0.4} color="white" />
                 </div>
 
                 <ul className={navLinks}>
-                    <li className='navLink'>
+                    <li className='navLink' onClick={updateMenu}>
                         <Link to="/portfolio" className="navbarText">Home</Link>
                     </li>
-                    <li className='navLink'>
+                    <li className='navLink' onClick={updateMenu}>
                         <Link to="/portfolio/about" className="navbarText">About</Link>
                     </li>
-                    <li className='navLink'>
+                    <li className='navLink' onClick={updateMenu}>
                         <Link to="/portfolio/contacts" className="navbarText">Contact</Link>
                     </li>
                 </ul>
